@@ -1,0 +1,219 @@
+
+
+.navcont {
+    background-color: rgb(89, 152, 211);
+    display: flex;
+    height: 60px;
+    font-size: 1em;
+}
+.boutp {
+    display: flex;
+    justify-content: space-between;
+
+}
+.navbody a {
+    color: aliceblue;
+    margin: 30px;
+    border: none;
+
+}
+body{
+    background-color: rgb(2, 2, 65);
+}
+.text {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 70px;
+}
+.particular1{
+    border: 2px solid;
+    height: 40px;
+    margin: 10px;
+    border-radius: 5px;
+}
+#particular2{
+    color: black;
+    background-color: aliceblue;
+    border: 2px solid;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;    
+    font-size: 15px;
+}
+.lien{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.lien a{
+    width: 60px;
+    height: 30px;
+    color: black;
+    border: 2px solid;
+    background-color: white;
+    border-radius: 5px;
+} 
+.lien2 a{
+     width: 60px;
+    height: 30px;
+    color: black;
+    border: 2px solid;
+    border-radius: 5px;
+} 
+.img{
+    width: 50%;
+    height: 50%;
+    font-size: 1em;
+}
+.navcont a{
+    color: white;
+    margin: 30px;
+    font-size: 16px; 
+}
+#plate-forme,#Solutions,#Tarification,#Resources,#AN {
+background-color: inherit;
+color: aliceblue;
+border: none;
+}
+.div2{
+    background-color: white;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 40px;
+
+}
+#navlink{
+    width:75%;
+    height: 40px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+#action{
+margin-top: 40px;
+margin-left: 30px;
+border: 2px solid black;
+width: 60%;
+height: 40px;
+border-radius: 10px;
+background-color: blue;
+
+}
+p{
+    color: white;
+}
+h1{
+    color: rgb(8, 8, 8);
+    align-items: center;
+}
+ul {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+      list-style-image: url('./orange-checkmark.svg');
+}
+ #special{
+    background-color: aliceblue;
+    height: 800px;
+    display: block;
+    
+ }
+h2{
+    margin-top: 30px;
+      margin-left: 20%;
+      
+}
+
+#special>h1{
+    margin-left: 20%;
+    margin-top: 10%;
+}
+#special>p {
+    color: black;
+    margin-left: 20%;
+}
+.tabulation>h2 {
+    color: white;
+    background-color: blue;
+    width: 30%;
+    border-radius: 10px;
+    height: 40px;
+    margin-right: 10%;
+}
+
+.tabulation{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.short-card__logo {
+  width: 48px;
+  height: 48px;
+  background: #f58220;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #0d1c2e;
+}
+
+.short-card__link {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.short-card__link .domain {
+  color: #0d1c2e;
+}
+
+.short-card__link .path {
+  color: #f58220;
+}
+
+/* Encadré des locations */
+.short-card__locations {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 12px;
+  position: absolute;
+  bottom: -10px;
+  right: 20px;
+  width: 140px;
+}
+
+.short-card__locations ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.short-card__locations li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+.img-fixe{
+ width: 200px;   
+  height: 150px;  
+  object-fit: cover;
+
+}
+.qrcode{
+     width: 200px;   
+  height: 200px;  
+  object-fit: cover;
+}
+.cardcode{
+      width: 200px;   
+  height: 150px;  
+  object-fit: cover;
+}
+.avance{
+    display: flex;
+    justify-content: space-between;
+}
